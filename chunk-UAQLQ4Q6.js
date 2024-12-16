@@ -1,0 +1,1 @@
+import{Aa as n,Ba as p,Ea as s,Fa as i,R as o}from"./chunk-SUIISPMS.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-episode-10"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,r){e&1&&(n(0,"p"),s(1,"episode-10 works!"),p())}})};export{a as Episode10Component};

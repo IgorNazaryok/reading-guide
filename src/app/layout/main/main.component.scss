@@ -1,0 +1,21 @@
+.wrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .bi-list {
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .main-container {
+    flex: 1;
+    display: flex;
+
+    main {
+      margin: 0 auto;
+    }
+  }
+}

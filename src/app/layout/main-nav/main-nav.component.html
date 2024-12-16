@@ -1,0 +1,128 @@
+<nav class="sidebar" [class.collapsed]="isNavExpanded">
+  <button class="toggle-btn" (click)="toggleNav('main')">
+    <span class="icon">&#9776;</span>
+  </button>
+
+  <h2 class="menu-title">Меню</h2>
+  <ul class="menu">
+    <li>
+      <a [routerLink]="['/main/home']" data-page="main" class="menu-link active"
+        >Головна сторінка</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/main/biography']" data-page="author" class="menu-link"
+        >Біографія автора</a
+      >
+    </li>
+    <li>
+      <a
+        [routerLink]="['/main/plot-analysis']"
+        data-page="analysis"
+        class="menu-link"
+        >Екранізації</a
+      >
+    </li>
+
+    <li class="submenu-container" [class.open]="isSabNavExpanded">
+      <a
+        [routerLink]="[]"
+        class="menu-link submenu-toggle"
+        (click)="toggleNav('sub')"
+        >Аналіз епізодів</a
+      >
+      <ul class="submenu">
+        <li>
+          <a [routerLink]="['/main/episode_1']" class="menu-link"
+            >Епізод 1. Телемах</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_2']" class="menu-link"
+            >Епізод 2. Нестор</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_3']" class="menu-link"
+            >Епізод 3. Протей</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_4']" class="menu-link"
+            >Епізод 4. Каліпсо</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_5']" class="menu-link"
+            >Епізод 5. Лотофаги</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_6']" class="menu-link"
+            >Епізод 6. Аїд</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_7']" class="menu-link"
+            >Епізод 7. Еол</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_8']" class="menu-link"
+            >Епізод 8. Лестригони</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_9']" class="menu-link"
+            >Епізод 9. Сцилла і Харибда</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_10']" class="menu-link"
+            >Епізод 10. Мандрівні скелі</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_11']" class="menu-link"
+            >Епізод 11. Сирени</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_12']" class="menu-link"
+            >Епізод 12. Циклопи</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_13']" class="menu-link"
+            >Епізод 13. Навсікая</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_14']" class="menu-link"
+            >Епізод 14. Бики Сонця</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_15']" class="menu-link"
+            >Епізод 15. Цирцея</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_16']" class="menu-link"
+            >Епізод 16. Євмей</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_17']" class="menu-link"
+            >Епізод 17. Ітака</a
+          >
+        </li>
+        <li>
+          <a [routerLink]="['/main/episode_18']" class="menu-link"
+            >Епізод 18. Пенелопа</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

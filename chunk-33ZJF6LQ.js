@@ -1,1 +1,0 @@
-import{Ia as n,Ja as p,S as o,Ya as s,Za as i}from"./chunk-WSC6QPNG.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-episode-15"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,r){e&1&&(n(0,"p"),s(1,"episode-15 works!"),p())}})};export{a as Episode15Component};

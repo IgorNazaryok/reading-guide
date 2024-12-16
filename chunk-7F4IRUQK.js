@@ -1,1 +1,0 @@
-import{Ia as o,Ja as a,S as n,Ya as s,Za as l}from"./chunk-WSC6QPNG.js";var i=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-plot-analysis"]],standalone:!0,features:[l],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),s(1,"plot-analysis works!"),a())}})};export{i as PlotAnalysisComponent};

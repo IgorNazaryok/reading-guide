@@ -1,1 +1,0 @@
-import{Da as n,Ea as p,Ja as s,Ka as i,R as o}from"./chunk-3TC7GXTJ.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-episode-12"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,r){e&1&&(n(0,"p"),s(1,"episode-12 works!"),p())}})};export{a as Episode12Component};

@@ -1,1 +1,0 @@
-import{Da as n,Ea as a,Ja as p,Ka as i,R as o}from"./chunk-3TC7GXTJ.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-biography"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,m){e&1&&(n(0,"p"),p(1,"biography works!"),a())}})};export{r as BiographyComponent};

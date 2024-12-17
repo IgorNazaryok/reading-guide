@@ -13,6 +13,7 @@ import { Component, Input } from '@angular/core';
     `
       .header {
         background: no-repeat center center;
+        box-shadow: -1px 7px 7px #b3b3b3;
         background-size: cover;
         width: 100%;
         aspect-ratio: 1350 / 211;
@@ -23,6 +24,6 @@ import { Component, Input } from '@angular/core';
 export class HeaderComponent {
   @Input() backgroundFile: string = 'home-header.png';
   get backgroundUrl(): string {
-    return `/images/${this.backgroundFile}`;
+    return `assets/images/${this.backgroundFile}`;
   }
 }
